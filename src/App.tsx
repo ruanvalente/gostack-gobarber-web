@@ -1,11 +1,11 @@
 import React from 'react'
+import GlobalSyle from './styles/global'
 
-function App() {
-  return (
-    <div>
-      <h2>GoBarber Web</h2>
-    </div>
-  )
-}
+const App: React.FC = () => (
+  <>
+    <h2>GoBarer Web</h2>
+    <GlobalSyle />
+  </>
+)
 
 export default App
